@@ -1,0 +1,201 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.delimitando_secao {
+    width: 1024px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 50px;
+    position: fixed;
+    background-color: #604829;
+}
+
+.estiliza_nav {
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.link_de_navegacao {
+    width: max-content;
+    height: 100%;
+}
+
+.link {
+    padding: 10px;
+    margin: 0 5px 0 5px;
+    text-decoration: none;
+    color: #c4a47c;
+    text-shadow: 4px 4px 10px #000000;
+}
+
+ .logo {
+    width: 50px;
+}
+
+/*Estilizado o main- conteúdo principal da página*/
+
+main {
+    width: 100%;
+    height: fit-content;
+}
+
+.secao_banner {
+    width: 100%;
+    height: 500px;
+    background-image: url('../assets/images/parallax-imagem1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 56px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Fraunces', serif;
+}
+
+.secao_conteudo {
+    width: 1024px;
+    padding: 100px 60px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.secao_conteudo h2 {
+    color: #c4a47c;
+    font-family: 'Oswald', sans-serif;
+}
+
+.secao_conteudo p {
+    text-align: center;
+    line-height: 35px;
+    font-family: 'Lato', sans-serif;
+}
+
+.secao_imagem_first {
+    background-image: url('../assets//images//parallax-imagem2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-attachment: fixed;
+}
+
+h3 {
+    color: #fff;
+    background-color: #604829;
+    padding: 10px;
+    font-family: 'Fraunces', serif;
+}
+
+.secao_imagem_second {
+    background-image: url('../assets/images/parallax-imagem3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 400px;
+    background-attachment: fixed;
+}
+
+.secao_imagem_thirth {
+    background-image: url('../assets/images/parallax-imagem4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1000px;
+    background-attachment: fixed;
+}
+
+.caixa_de_contatos {
+    width: max-content;
+    padding: 10px;
+    color: #fff;
+    background-color: #604829;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.secao_lista {
+    background-image: url('../assets/images/cafeteria.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+
+.lista {
+    color: #fff;
+}
+
+.lista li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista div, span {
+    width: 400px;
+    border: .5px dotted #fff;
+    margin: 0 10px 0 10px;
+}
+
+.lista h3 {
+    background-color: #fff0;
+    margin: 3px;
+}
+
+.secao_lista h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+footer {
+    background-color: #000000;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+}
+
+
